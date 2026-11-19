@@ -10,4 +10,19 @@
     <string name="chk_recordarme">Recordarme</string>
     <string name="btn_ingresar">Ingresar</string>
     <string name="txt_ir_a_registro">¿No tienes cuenta? Regístrate</string>
+
+    <!-- Registro -->
+    <string name="titulo_registro">Crear cuenta</string>
+    <string name="subtitulo_registro">Empieza a organizar tus finanzas personales</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_presupuesto_mensual">Presupuesto mensual estimado (CLP)</string>
+    <string name="hint_repetir_clave">Repetir contraseña</string>
+    <string name="pregunta_objetivo">¿Cuál es tu objetivo principal?</string>
+    <string name="opt_objetivo_ahorrar">Ahorrar cada mes</string>
+    <string name="opt_objetivo_diario">Controlar gastos diarios</string>
+    <string name="opt_objetivo_deudas">Reducir deudas</string>
+    <string name="opt_objetivo_hogar">Organizar presupuesto del hogar</string>
+    <string name="chk_terminos">Acepto los términos y condiciones</string>
+    <string name="btn_crear_cuenta">Crear cuenta</string>
+    <string name="txt_ir_al_login">¿Ya tienes cuenta? Ingresa</string>
 </resources>
