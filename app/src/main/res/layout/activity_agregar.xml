@@ -31,47 +31,57 @@
 
             <EditText
                 android:id="@+id/edtMontoAgregar"
+                style="@style/CampoTexto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_monto"
+                android:importantForAutofill="no"
                 android:inputType="number"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/edtComercioAgregar"
+                style="@style/CampoTexto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/hint_comercio"
+                android:importantForAutofill="no"
                 android:inputType="textCapSentences"
                 android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/edtCategoriaAgregar"
+                style="@style/CampoTexto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/hint_categoria"
+                android:importantForAutofill="no"
                 android:inputType="textCapSentences"
                 android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/edtFechaAgregar"
+                style="@style/CampoTexto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="@string/hint_fecha"
+                android:importantForAutofill="no"
                 android:inputType="date"
                 android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/edtDescripcionAgregar"
+                style="@style/CampoTexto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:gravity="top|start"
                 android:hint="@string/hint_descripcion"
+                android:importantForAutofill="no"
                 android:inputType="textMultiLine"
                 android:minLines="3"
                 android:textSize="16sp" />
@@ -80,12 +90,11 @@
 
         <Button
             android:id="@+id/btnGuardarGasto"
+            style="@style/BotonPrincipal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:backgroundTint="@color/primario"
-            android:text="@string/btn_guardar_gasto"
-            android:textSize="18sp" />
+            android:text="@string/btn_guardar_gasto" />
 
     </LinearLayout>
 </ScrollView>

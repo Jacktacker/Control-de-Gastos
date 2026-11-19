@@ -1,5 +1,6 @@
 package com.example.controldegastos
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
@@ -16,6 +17,12 @@ class ListaActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val btnAgregar = findViewById<ImageButton>(R.id.btnAgregar)
+        btnAgregar.setOnClickListener {
+            val intent = Intent(this, AgregarActivity::class.java)
+            startActivity(intent)
         }
 
         val btnSalir = findViewById<ImageButton>(R.id.btnSalir)
