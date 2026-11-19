@@ -25,4 +25,29 @@
     <string name="chk_terminos">Acepto los términos y condiciones</string>
     <string name="btn_crear_cuenta">Crear cuenta</string>
     <string name="txt_ir_al_login">¿Ya tienes cuenta? Ingresa</string>
+
+    <!-- Lista -->
+    <string name="titulo_lista">Mis Gastos</string>
+    <string name="desc_btn_ia">Asistente IA de gastos</string>
+    <string name="desc_btn_agregar">Agregar nuevo gasto</string>
+    <string name="desc_btn_salir">Cerrar sesión</string>
+    <string name="resumen_mes_titulo">Total gastado este mes</string>
+    <string name="resumen_mes_monto">$128.490</string>
+    <string name="resumen_presupuesto">Presupuesto mensual: $350.000</string>
+    <string name="desc_icono_gasto">Ícono de gasto</string>
+    <string name="gasto_1_titulo">Compra supermercado</string>
+    <string name="gasto_1_detalle">Alimentación • 18 nov</string>
+    <string name="gasto_1_monto">-$45.990</string>
+    <string name="gasto_2_titulo">Carga tarjeta de transporte</string>
+    <string name="gasto_2_detalle">Transporte • 17 nov</string>
+    <string name="gasto_2_monto">-$10.000</string>
+    <string name="gasto_3_titulo">Cuenta de internet hogar</string>
+    <string name="gasto_3_detalle">Servicios • 15 nov</string>
+    <string name="gasto_3_monto">-$29.990</string>
+    <string name="gasto_4_titulo">Almuerzo cafetería</string>
+    <string name="gasto_4_detalle">Alimentación • 14 nov</string>
+    <string name="gasto_4_monto">-$8.510</string>
+    <string name="gasto_5_titulo">Farmacia y botiquín</string>
+    <string name="gasto_5_detalle">Salud • 12 nov</string>
+    <string name="gasto_5_monto">-$34.000</string>
 </resources>

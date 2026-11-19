@@ -2,6 +2,7 @@ package com.example.controldegastos
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -17,6 +18,12 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val btnIngresar = findViewById<Button>(R.id.btnIngresar)
+        btnIngresar.setOnClickListener {
+            val intent = Intent(this, ListaActivity::class.java)
+            startActivity(intent)
         }
 
         val txtIrARegistro = findViewById<TextView>(R.id.txtIrARegistro)
