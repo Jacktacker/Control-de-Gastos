@@ -50,4 +50,13 @@
     <string name="gasto_5_titulo">Farmacia y botiquín</string>
     <string name="gasto_5_detalle">Salud • 12 nov</string>
     <string name="gasto_5_monto">-$34.000</string>
+
+    <!-- Agregar -->
+    <string name="titulo_agregar">Nuevo Gasto</string>
+    <string name="hint_comercio">Comercio o título del gasto</string>
+    <string name="hint_monto">Monto ($)</string>
+    <string name="hint_categoria">Categoría (ej. Alimentación, Transporte)</string>
+    <string name="hint_fecha">Fecha (DD/MM/AAAA)</string>
+    <string name="hint_descripcion">Descripción o notas adicionales</string>
+    <string name="btn_guardar_gasto">Guardar Gasto</string>
 </resources>
