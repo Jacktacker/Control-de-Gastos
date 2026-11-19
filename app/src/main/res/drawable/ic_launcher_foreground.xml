@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Billetera centrada dentro de la zona segura del ícono adaptativo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,39 C30,35.69 32.69,33 36,33 L72,33 C75.31,33 78,35.69 78,39 L78,69 C78,72.31 75.31,75 72,75 L36,75 C32.69,75 30,72.31 30,69 Z" />
+
+    <!-- Banda superior -->
+    <path
+        android:fillColor="#125737"
+        android:pathData="M35,39 L70,39 C71.1,39 72,39.9 72,41 L72,43 L35,43 Z" />
+
+    <!-- Broche lateral -->
+    <path
+        android:fillColor="#1B7A4E"
+        android:pathData="M62,50 L78,50 L78,62 L62,62 C58.69,62 56,59.31 56,56 C56,52.69 58.69,50 62,50 Z" />
+
+    <!-- Punto del broche -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M63,53.5 A2.5,2.5 0 1,1 62.99,53.5 Z" />
+
+    <!-- Barras de control de gastos -->
+    <path
+        android:fillColor="#1B7A4E"
+        android:pathData="M37,60 L41,60 L41,68 L37,68 Z" />
+    <path
+        android:fillColor="#1B7A4E"
+        android:pathData="M44,54 L48,54 L48,68 L44,68 Z" />
+    <path
+        android:fillColor="#1B7A4E"
+        android:pathData="M51,57 L55,57 L55,68 L51,68 Z" />
+</vector>

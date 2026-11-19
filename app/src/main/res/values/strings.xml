@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control de Gastos</string>
+
+    <!-- Login -->
+    <string name="desc_logo_app">Logo de Control de Gastos</string>
+    <string name="subtitulo_login">Organiza y controla tus gastos diarios</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_clave">Contraseña</string>
+    <string name="chk_recordarme">Recordarme</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="txt_ir_a_registro">¿No tienes cuenta? Regístrate</string>
+</resources>
