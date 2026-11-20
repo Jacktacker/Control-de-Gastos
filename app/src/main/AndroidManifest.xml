@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ControlDeGastos">
         <activity
+            android:name=".IAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleActivity"
+            android:exported="false" />
+        <activity
             android:name=".AgregarActivity"
             android:exported="false" />
         <activity

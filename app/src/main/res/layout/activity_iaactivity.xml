@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IAActivity">
+
+    <!-- Encabezado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtTituloIA"
+            style="@style/TituloPantalla"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/titulo_ia" />
+
+        <ImageButton
+            android:id="@+id/btnVolverIA"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/desc_btn_volver"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="@color/texto_secundario" />
+    </LinearLayout>
+
+    <!-- Formulario de consulta a la IA -->
+    <TextView
+        android:id="@+id/txtPreguntaIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/pregunta_ia"
+        android:textColor="@color/texto_principal"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spnTipoConsultaIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/tipos_consulta_ia"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtConsultaIA"
+        style="@style/CampoTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="top|start"
+        android:hint="@string/hint_consulta_ia"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/btnConsultarIA"
+        style="@style/BotonPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/btn_consultar_ia" />
+
+    <TextView
+        android:id="@+id/txtTituloRespuestaIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/titulo_respuesta_ia"
+        android:textColor="@color/texto_principal"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Área de respuesta con scroll -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_tarjeta">
+
+        <TextView
+            android:id="@+id/txtRespuestaIA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/ejemplo_respuesta_ia"
+            android:textColor="@color/texto_principal"
+            android:textSize="15sp" />
+    </ScrollView>
+
+</LinearLayout>

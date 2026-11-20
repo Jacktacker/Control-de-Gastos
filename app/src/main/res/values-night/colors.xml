@@ -10,4 +10,5 @@
     <color name="texto_principal">#EDF5F0</color>
     <color name="texto_secundario">#A3B8AE</color>
     <color name="peligro">#EF5350</color>
+    <color name="sobre_peligro">#FFFFFF</color>
 </resources>
