@@ -71,5 +71,12 @@
     <string name="btn_editar_gasto">Editar gasto</string>
     <string name="btn_eliminar_gasto">Eliminar gasto</string>
 
+    <!-- IA -->
+    <string name="titulo_ia">Asistente IA</string>
+    <string name="pregunta_ia">¿En qué te ayudo con tus gastos?</string>
+    <string name="hint_consulta_ia">Ej: ¿Cómo puedo reducir mis gastos en alimentación este mes?</string>
+    <string name="btn_consultar_ia">Consultar a la IA</string>
+    <string name="titulo_respuesta_ia">Recomendación de la IA</string>
+    <string name="ejemplo_respuesta_ia">Resumen y recomendaciones del mes:\n\n1. Alimentación representa el 42% de tus gastos ($54.500). Planificar compras semanales puede ahorrarte cerca de $12.000 al mes.\n\n2. Tus gastos en servicios ($29.990) y transporte ($10.000) se mantienen dentro de tu presupuesto.\n\n3. Con un presupuesto de $350.000, aún dispones de $221.510 para el resto del mes.</string>
 
 </resources>

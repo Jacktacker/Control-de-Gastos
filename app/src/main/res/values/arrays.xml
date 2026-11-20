@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_consulta_ia">
+        <item>Consejos para ahorrar</item>
+        <item>Resumen de mis gastos</item>
+        <item>Detectar gastos hormiga</item>
+        <item>Plan de presupuesto mensual</item>
+    </string-array>
+</resources>

@@ -1,6 +1,7 @@
 package com.example.controldegastos
 
 import android.os.Bundle
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +16,11 @@ class DetalleActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val btnVolverDetalle = findViewById<ImageButton>(R.id.btnVolverDetalle)
+        btnVolverDetalle.setOnClickListener {
+            finish()
         }
     }
 }
