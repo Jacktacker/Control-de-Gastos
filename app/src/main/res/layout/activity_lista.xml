@@ -128,6 +128,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/txtGasto1Lista"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/gasto_1_titulo"
@@ -136,6 +137,7 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/txtSubtituloGasto1Lista"
                         style="@style/SubtituloPantalla"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -178,6 +180,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/txtGasto2Lista"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/gasto_2_titulo"
@@ -186,6 +189,7 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/txtSubtituloGasto2Lista"
                         style="@style/SubtituloPantalla"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -228,6 +232,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/txtGasto3Lista"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/gasto_3_titulo"
@@ -236,6 +241,7 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/txtSubtituloGasto3Lista"
                         style="@style/SubtituloPantalla"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -278,6 +284,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/txtGasto4Lista"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/gasto_4_titulo"
@@ -286,6 +293,7 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/txtSubtituloGasto4Lista"
                         style="@style/SubtituloPantalla"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -328,6 +336,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/txtGasto5Lista"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/gasto_5_titulo"
@@ -336,6 +345,7 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/txtSubtituloGasto5Lista"
                         style="@style/SubtituloPantalla"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
