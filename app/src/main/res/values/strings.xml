@@ -59,4 +59,17 @@
     <string name="hint_fecha">Fecha (DD/MM/AAAA)</string>
     <string name="hint_descripcion">Descripción o notas adicionales</string>
     <string name="btn_guardar_gasto">Guardar Gasto</string>
+
+    <!-- Detalle -->
+    <string name="desc_btn_volver">Volver a la lista</string>
+    <string name="titulo_detalle">Detalle del Gasto</string>
+    <string name="detalle_categoria_ejemplo">Categoría: Alimentación</string>
+    <string name="detalle_fecha_ejemplo">Fecha: 18 de noviembre de 2026</string>
+    <string name="detalle_metodo_ejemplo">Método de pago: Tarjeta de débito</string>
+    <string name="detalle_nota_ejemplo">Nota: Compras semanales de frutas, verduras y abarrotes del mes.</string>
+    <string name="sw_gasto_recurrente">Marcar como gasto recurrente</string>
+    <string name="btn_editar_gasto">Editar gasto</string>
+    <string name="btn_eliminar_gasto">Eliminar gasto</string>
+
+
 </resources>
